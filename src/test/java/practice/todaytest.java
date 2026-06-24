@@ -8,10 +8,14 @@ public class todaytest {
 
 	@Test
 	public void openvbrowser() throws InterruptedException{
-		WebDriver dr=new ChromeDriver();
-		Thread.sleep(90000);
-		dr.get("https://www.youtube.com/");
-		  System.out.println("Browser Opened");
+		  WebDriver dr = new ChromeDriver();
+
+		    dr.get("https://www.youtube.com/");
+		    System.out.println("Browser Opened");
+
+		    Thread.sleep(90000); // wait AFTER opening page
+
+		    dr.quit();
 
 	}
 }
