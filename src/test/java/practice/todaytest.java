@@ -9,7 +9,7 @@ public class todaytest {
 	@Test
 	public void openvbrowser() throws InterruptedException{
 		WebDriver dr=new ChromeDriver();
-		Thread.sleep(10000);
+		Thread.sleep(90000);
 		dr.get("https://www.youtube.com/");
 		  System.out.println("Browser Opened");
 
