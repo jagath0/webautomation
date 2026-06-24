@@ -10,7 +10,7 @@ public class today {
 	public void openvbrowser(){
 		WebDriver dr=new ChromeDriver();
 		dr.get("https://www.youtube.com/");
-
+		  System.out.println("Browser Opened");
 
 	}
 }
