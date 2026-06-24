@@ -13,7 +13,7 @@ public class TodayTest {
 		    dr.get("https://www.youtube.com/");
 		    System.out.println("Browser Opened");
 
-		    Thread.sleep(90000); // wait AFTER opening page
+		    // Thread.sleep(90000); // wait AFTER opening page
 
 		    dr.quit();
 
